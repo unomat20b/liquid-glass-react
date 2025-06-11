@@ -52,12 +52,11 @@
         :style="hoverMainStyle"
       />
     </template>
-  </>
 </template>
 
 <script lang="ts" setup>
 import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
-import { displacementMap, polarDisplacementMap } from './utils'
+
 
 type MousePos = { x: number; y: number }
 

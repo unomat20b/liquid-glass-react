@@ -1,7 +1,5 @@
 import { useId, useState, useRef, useCallback, useEffect, forwardRef, CSSProperties } from "react"
-import { displacementMap, polarDisplacementMap } from "./utils"
-import LiquidGlass from './vue/LiquidGlass.vue'
-export default LiquidGlass
+import { displacementMap, polarDisplacementMap } from './utils'
 
 /* ---------- SVG filter (edge-only displacement) ---------- */
 const GlassFilter: React.FC<{ id: string; displacementScale: number; aberrationIntensity: number; width: number; height: number; mode: "standard" | "polar" }> = ({ id, displacementScale, aberrationIntensity, width, height, mode }) => (
