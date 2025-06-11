@@ -52,7 +52,6 @@
         :style="hoverMainStyle"
       />
     </template>
-  </>
 </template>
 
 <script lang="ts" setup>
