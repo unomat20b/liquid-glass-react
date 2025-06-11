@@ -282,7 +282,7 @@ function handleClick() {
 
 <script lang="ts">
 import { defineComponent, h } from 'vue'
-import { displacementMap, polarDisplacementMap } from './utils'
+import { displacementMap, polarDisplacementMap } from '../utils'
 
 export const GlassFilter = defineComponent({
   name: 'GlassFilter',
