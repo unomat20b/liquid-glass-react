@@ -112,3 +112,16 @@ function App() {
 | `overLight` | `boolean` | `false` | Whether the glass is over a light background |
 | `onClick` | `() => void` | - | Click handler |
 | `mouseContainer` | `React.RefObject<HTMLElement \| null> \| null` | `null` | Container element to track mouse movement on (defaults to the glass component itself) |
+
+## Vue Version
+
+A Vue 3 port of the component is available in `vue/LiquidGlass.vue`. You can try it locally using the example in `vue-example`.
+
+```bash
+cd vue-example
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to see the effect.
+
